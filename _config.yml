@@ -4,9 +4,9 @@
 # ---------------------------------------------------------------
 
 # Site
-title: HKU Seminar
-subtitle:
-description:
+title: Seminar
+subtitle: HKU
+description: HKU Seminar
 author: 
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -93,7 +93,7 @@ rss:
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -117,11 +117,11 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /
+  # home: /
   #categories: /categories/
   #about: /about/
   archives: /archives/
-  tags: /tags/
+  #tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -132,7 +132,7 @@ menu:
 #   Key is the name of menu item and value is the name of FontAwesome icon. Key is case-senstive.
 #   When an question mask icon presenting up means that the item has no mapping icon.
 menu_icons:
-  enable: true
+  enable: false
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
@@ -151,8 +151,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-# scheme: Muse
-scheme: Mist
+scheme: Muse
+# scheme: Mist
 #scheme: Pisces
 
 
@@ -223,7 +223,7 @@ font:
 #   Key is the name of the item and value is the name of FontAwesome icon. Key is case-senstive.
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
-  enable: true
+  enable: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
@@ -238,10 +238,10 @@ social_icons:
 
 # Table Of Contents in the Sidebar
 toc:
-  enable: true
+  enable: false
 
   # Automatically add list number to toc.
-  number: true
+  number: false
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
@@ -264,7 +264,7 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
+  display: remove
   #display: always
   #display: hide
   #display: remove
@@ -310,9 +310,9 @@ auto_excerpt:
 # Post meta display settings
 post_meta:
   item_text: true
-  created_at: true
+  created_at: false
   updated_at: false
-  categories: true
+  categories: false
 
 # Post wordcount display settings
 post_wordcount:
@@ -453,7 +453,7 @@ gitalk:
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
+  ua_enable: false
   admin_enable: false
   user_id: 0
   #admin_nickname: Author
