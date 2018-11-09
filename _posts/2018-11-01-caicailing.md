@@ -1,14 +1,14 @@
 ---
 title: Privacy-preserving on OSN
 date: 2018-11-01 00:15:39
-description: CAI Cailing, 2018-11-01
+description: CAI Cailing, 2018-11-02
 ---
 
 <!-- more -->
 
 :tada:Presenter: CAI Cailing
 
-:tada:Time: 2018-11-01
+:tada:Time: 2018-11-02
 
 ---
 # Abstract
